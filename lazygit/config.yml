@@ -7,3 +7,11 @@ git:
   paging:
     colorArg: never
     pager: ydiff -p cat -s --wrap --width={{columnWidth}}
+customCommands:
+  - key: "<c-p>"
+    context: "global"
+    loadingText: "pushing"
+    prompts:
+      - type: "input"
+        title: "which branch do you want to push to?"
+    command: "git push origin {{index .PromptResponses 0}}"
