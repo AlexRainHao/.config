@@ -1,0 +1,308 @@
+{
+  "editor.multiCursorModifier": "alt",
+  "remote.SSH.remotePlatform": {
+    "170": "linux",
+    "197": "linux",
+    "210": "linux",
+    "192.168.100.202": "linux",
+    "47.97.104.193": "linux"
+  },
+  "editor.fontLigatures": true,
+  "editor.suggestSelection": "first",
+  "fileheader.Author": "AlexRainHao",
+  "fileheader.tpl": "# -*- coding: utf-8 -*- \r\n\r\n\"\"\"\r\n@Description: \r\n@Author: {author}<yuanyuhaoyyh@gmail.com> \r\n@Copyright 2021 - 2022\r\n@Date: {createTime}\r\n@Version: __Dev__\r\n\"\"\"\r\n",
+  "fileheader.LastModifiedBy": "",
+  "terminal.integrated.inheritEnv": true,
+  "rainbow_csv.autodetection_min_line_count": 20,
+  "editor.largeFileOptimizations": false,
+  "autoDocstring.docstringFormat": "numpy",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "git-rebase-todo": "gitlens.rebase"
+  },
+  "explorer.confirmDelete": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnType": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.smartRelativeLine": true,
+  "cmake.configureOnOpen": true,
+  "terminal.integrated.defaultProfile.windows": "D:\\Git\\bin\\bash.exe (migrated)",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.profiles.windows": {
+    "D:\\Git\\bin\\bash.exe (migrated)": {
+      "path": "D:\\Git\\bin\\bash.exe",
+      "args": []
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "cppref.lang": "zh",
+  "http.proxyStrictSSL": false,
+  "editor.suggest.showStatusBar": true,
+  "cmake.cpptools.intelliSenseMode": "gcc-x64",
+  "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "white",
+      "backgroundColor": "#ffab00",
+      "overviewRulerColor": "#ffab00"
+    },
+    {
+      "text": "TESTED:",
+      "color": "#FFC37D",
+      "backgroundColor": "white",
+      "overviewRulerColor": "#ffab00"
+    }
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "extensions.autoCheckUpdates": false,
+  "redhat.telemetry.enabled": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "vim.useSystemClipboard": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "output.smartScroll.enabled": false,
+  "markdown.preview.lineHeight": 2,
+  "markdown.extension.toc.levels": "1..3",
+  "markdown-preview-enhanced.scrollSync": true,
+  "vim.replaceWithRegister": true,
+  "editor.fontSize": 15.5,
+  "typescript.preferences.quoteStyle": "double",
+  "javascript.preferences.quoteStyle": "double",
+  "git.suggestSmartCommit": false,
+  "git.confirmSync": false,
+  "todohighlight.isEnable": true,
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.py"
+  ],
+  "todohighlight.toggleURI": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit"
+  },
+  "leetcode.endpoint": "leetcode-cn",
+  "leetcode.workspaceFolder": "/Users/alexrain/yyh/yyh_code/cpp/leetcode_vscode",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.showDescription": "In File Comment",
+  "leetcode.defaultLanguage": "cpp",
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.hint.commentDescription": false,
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.clang_format_style": "GNU",
+  "update.mode": "manual",
+  "jupyter.askForKernelRestart": false,
+  "vim.vimrc.path": "~/.vimrc",
+  "vim.vimrc.enable": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "resmon.show.cpufreq": false,
+  "resmon.disk.format": "PercentRemaining",
+  "resmon.show.battery": false,
+  "resmon.show.cpuusage": true,
+  "resmon.show.mem": false,
+  "extensions.autoUpdate": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "window.titleBarStyle": "native",
+  "window.nativeTabs": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "C_Cpp.dimInactiveRegions": false,
+  "clangd.path": "/usr/bin/clangd",
+  "clangd.arguments": ["-stdlib=libc++"],
+  "CppHelper.SourcePattern": [
+    "{FILE}.cpp",
+    "{FILE}.c",
+    "{FILE}.cc",
+    "{FILE}.inl",
+    "/src/{FILE}.cpp",
+    "/src/{FILE}.c",
+    "/src/{FILE}.cc",
+    "/src/{FILE}.inl"
+  ],
+  "doxdocgen.file.fileTemplate": "",
+  "doxdocgen.generic.authorEmail": "yuanyuhaoyyh@gmail.com",
+  "doxdocgen.generic.authorName": "AlexRainHao",
+  "doxdocgen.generic.briefTemplate": "@Description {text}",
+  "doxdocgen.file.fileOrder": [
+    "brief",
+    "author",
+    "copyright",
+    "date",
+    "version"
+  ],
+  "editor.wordWrapColumn": 60,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "python.formatting.provider": "black",
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.testing.pytestEnabled": true,
+  "python.languageServer": "Jedi",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "pythonTestExplorer.testFramework": "pytest",
+  "terminal.integrated.fontFamily": "\"Hack Nerd Font\"",
+  "doxdocgen.file.versionTag": "@version __dev__",
+  "clang-format.executable": "/usr/local/bin/clang-format",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[nginx]": {
+    "editor.defaultFormatter": "raynigon.nginx-formatter"
+  },
+  "vim.statusBarColors.replace": "#ff0000",
+  "editor.fontFamily": "'Input Mono', 'Fira Code', monospace, Consolas",
+  "terminal.integrated.fontSize": 15,
+  "vim.cursorStylePerMode.normal": "block-outline",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vim.highlightedyank.enable": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "5"],
+      "commands": [
+        {
+          "command": "editor.emmet.action.matchTag"
+        }
+      ]
+    },
+    {
+      "before": ["enter"],
+      "commands": ["bracket-select.select"]
+      // "after": [
+      //     "v",
+      //     "a",
+      //     "f"
+      // ]
+    },
+    {
+      "before": ["e"],
+      "commands": ["leap.findForward"]
+    },
+    {
+      "before": ["E"],
+      "commands": ["leap.findBackward"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["enter"],
+      "commands": ["bracket-select.select"]
+    }
+    // {
+    //     "before": [
+    //         "enter"
+    //     ],
+    //     "after": [
+    //         "a",
+    //         "f"
+    //     ]
+    // },
+  ],
+  "docker.images.description": ["CreatedTime", "Size"],
+  "kite.showWelcomeNotificationOnStartup": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.guides.bracketPairs": true,
+  "editor.suggest.preview": true,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "debug.javascript.autoAttachFilter": "disabled",
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "c-cpp-compile-run.cpp-compiler": "/usr/local/bin/g++",
+  "c-cpp-compile-run.c-compiler": "/usr/local/bin/gcc",
+  "cmake.cpptools.compilerPath": "/usr/local/bin/g++",
+  "editor.minimap.autohide": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.showMarksInGutter": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "window.restoreWindows": "none",
+  "editor.lineNumbers": "relative",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "cmake.default.generator": "Unix Makefiles",
+  "cmake.generator": "",
+  "workbench.colorTheme": "Everforest Dark",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoImportUserSymbols": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "C/C++ Include Guard.Macro Type": "Filepath",
+  "C/C++ Include Guard.Suffix": "_H",
+  "clangd.detectExtensionConflicts": false,
+  "[cmake]": {
+    "editor.defaultFormatter": "cheshirekow.cmake-format"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "C_Cpp.formatting": "clangFormat",
+  "files.exclude": {
+    "node_modules/": true,
+    "*/**/node_modules/": true,
+    "venv": true,
+    ".nuxt": true
+  },
+  "window.zoomLevel": -1,
+  "editor.foldingStrategy": "indentation",
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "black-formatter.importStrategy": "fromEnvironment",
+  "workbench.colorCustomizations": {
+    "list.inactiveSelectionBackground": "#00897B"
+  }
+}
