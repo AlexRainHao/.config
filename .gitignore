@@ -17,3 +17,5 @@ xbuild
 karabiner/automatic_backups
 lazygit/state.yml
 yarn/global
+bpytop/*.log
+karabiner/automatic_backups
