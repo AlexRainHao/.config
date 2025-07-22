@@ -14,8 +14,7 @@ stetic/library-cache
 wireshark
 xbuild
 .DS_Store
-karabiner/automatic_backups
 lazygit/state.yml
 yarn/global
 bpytop/*.log
-karabiner/automatic_backups
+karabiner/automatic_backups/*.json
