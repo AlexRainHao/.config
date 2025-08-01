@@ -8,5 +8,10 @@ use = "yazi-rs/plugins:smart-enter"
 rev = "de53d90"
 hash = "56fdabc96fc1f4d53c96eb884b02a5be"
 
+[[plugin.deps]]
+use = "GianniBYoung/rsync"
+rev = "55631aa"
+hash = "fb38b3c546e6594961b335cee4eaa340"
+
 [flavor]
 deps = []
