@@ -61,3 +61,11 @@ desc = "Enter the child directory, or open the file"
 on = ["R"]
 run = "plugin rsync"
 desc = "Copy files using rsync"
+
+########################################
+# rsync
+########################################
+[[mgr.prepend_keymap]]
+on = ["g", "i"]
+run = "plugin lazygit"
+desc = "run lazygit"
