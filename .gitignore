@@ -20,3 +20,4 @@ bpytop/*.log
 karabiner/automatic_backups/*.json
 
 nvim-bak
+karabiner/automatic_backups

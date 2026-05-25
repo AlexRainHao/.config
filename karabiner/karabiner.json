@@ -4,6 +4,21 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Map Fn (Control) + N/M to Previous/Next Track",
+                        "manipulators": [
+                            {
+                                "from": { "key_code": "keypad_plus" },
+                                "to": [{ "consumer_key_code": "rewind" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": { "key_code": "keypay_hyphen" },
+                                "to": [{ "consumer_key_code": "fast_forward" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Tlide + hjkl to arrow keys",
                         "manipulators": [
                             {
@@ -144,19 +159,6 @@
                                         "modifiers": ["left_command"]
                                     }
                                 ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "ctrl+[ to ESC",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "open_bracket",
-                                    "modifiers": { "mandatory": ["control"] }
-                                },
-                                "to": [{ "key_code": "escape" }],
                                 "type": "basic"
                             }
                         ]
@@ -377,46 +379,21 @@
             },
             "devices": [
                 {
+                    "disable_built_in_keyboard_if_exists": true,
                     "identifiers": {
                         "is_keyboard": true,
-                        "product_id": 50484,
-                        "vendor_id": 1133
+                        "product_id": 12290,
+                        "vendor_id": 14000
                     },
-                    "simple_modifications": [
-                        {
-                            "from": { "key_code": "left_command" },
-                            "to": [{ "key_code": "left_option" }]
-                        },
-                        {
-                            "from": { "key_code": "left_option" },
-                            "to": [{ "key_code": "left_command" }]
-                        }
-                    ]
+                    "ignore_vendor_events": true
                 },
                 {
                     "disable_built_in_keyboard_if_exists": true,
                     "identifiers": {
                         "is_keyboard": true,
-                        "product_id": 45890,
-                        "vendor_id": 1133
+                        "product_id": 12341,
+                        "vendor_id": 14000
                     }
-                },
-                {
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "product_id": 99,
-                        "vendor_id": 7247
-                    },
-                    "simple_modifications": [
-                        {
-                            "from": { "key_code": "left_command" },
-                            "to": [{ "key_code": "left_option" }]
-                        },
-                        {
-                            "from": { "key_code": "left_option" },
-                            "to": [{ "key_code": "left_command" }]
-                        }
-                    ]
                 },
                 {
                     "disable_built_in_keyboard_if_exists": true,
@@ -427,64 +404,28 @@
                     }
                 },
                 {
-                    "disable_built_in_keyboard_if_exists": true,
-                    "fn_function_keys": [
-                        {
-                            "from": { "key_code": "f1" },
-                            "to": [{ "key_code": "f1" }]
-                        },
-                        {
-                            "from": { "key_code": "f2" },
-                            "to": [{ "key_code": "f2" }]
-                        },
-                        {
-                            "from": { "key_code": "f3" },
-                            "to": [{ "key_code": "f3" }]
-                        },
-                        {
-                            "from": { "key_code": "f4" },
-                            "to": [{ "key_code": "f4" }]
-                        },
-                        {
-                            "from": { "key_code": "f5" },
-                            "to": [{ "key_code": "f5" }]
-                        },
-                        {
-                            "from": { "key_code": "f6" },
-                            "to": [{ "key_code": "f6" }]
-                        },
-                        {
-                            "from": { "key_code": "f7" },
-                            "to": [{ "key_code": "f7" }]
-                        },
-                        {
-                            "from": { "key_code": "f8" },
-                            "to": [{ "key_code": "f8" }]
-                        },
-                        {
-                            "from": { "key_code": "f9" },
-                            "to": [{ "key_code": "f9" }]
-                        },
-                        {
-                            "from": { "key_code": "f10" },
-                            "to": [{ "key_code": "f10" }]
-                        },
-                        {
-                            "from": { "key_code": "f11" },
-                            "to": [{ "key_code": "f11" }]
-                        },
-                        {
-                            "from": { "key_code": "f12" },
-                            "to": [{ "key_code": "f12" }]
-                        }
-                    ],
                     "identifiers": {
                         "is_keyboard": true,
+                        "product_id": 8264,
+                        "vendor_id": 8264
+                    },
+                    "ignore": true
+                },
+                {
+                    "identifiers": {
                         "is_pointing_device": true,
-                        "product_id": 563,
-                        "vendor_id": 13364
+                        "product_id": 8264,
+                        "vendor_id": 8264
                     },
                     "ignore": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": true,
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 544,
+                        "vendor_id": 1452
+                    }
                 }
             ],
             "name": "Default profile",
