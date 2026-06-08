@@ -12,7 +12,7 @@
                                 "type": "basic"
                             },
                             {
-                                "from": { "key_code": "keypay_hyphen" },
+                                "from": { "key_code": "keypad_hyphen" },
                                 "to": [{ "consumer_key_code": "fast_forward" }],
                                 "type": "basic"
                             }
@@ -425,6 +425,24 @@
                         "is_keyboard": true,
                         "product_id": 544,
                         "vendor_id": 1452
+                    }
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": true,
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": true,
+                        "product_id": 563,
+                        "vendor_id": 13364
+                    }
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": true,
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": true,
+                        "product_id": 12292,
+                        "vendor_id": 14000
                     }
                 }
             ],
